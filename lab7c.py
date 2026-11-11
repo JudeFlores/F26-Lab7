@@ -1,14 +1,13 @@
-# Add comments before you do anything else.
-
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Jude Flores
+# Date:November 11th, 2026
 # Purpose: Slice NumPy Arrays.
 # Usage: ./lab7c.py
-
-# TO DO 1: Create numArray according to instructions given in readme.md file.
-
-# TO DO 2: Perform the operations on numArray given in readme.md file.
-
-# TO DO 3: Run the script.
+import numpy as np
+array = np.random.rand(100)
+print(array[:10])
+print(array[89:])
+print(array[21:51])
+array[50:66] = 101
+print(array[50:66])
 
