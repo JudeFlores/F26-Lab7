@@ -1,5 +1,3 @@
-# Add comments before you do anything else.
-
 #!/usr/bin/env python3
 # Author: Jude Flores
 # Date: November 11th, 2026
@@ -11,4 +9,11 @@
 # TO DO 2: create a data frame provided in dataframe.jpg file.
 
 # TO DO 3: Run the script.
+import pandas as pd
+dict1 = {"Apple": "Green", "Carrot": "Red", "Radish": "Purple"}
+dict2 = {"Okra": "Thin", "Potato": "blob", "Radish": "Round"}
+dict3 = {"Apple": 2.1, "Okra": 3.5, "Carrot": 1.3, "Potato": 2.0, "Radish": 3.0}
 
+fruit={"Colour":dict1, "shape":dict2, "size":dict3}
+df = pd.DataFrame(fruit)
+print(df)
