@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Jude Flores
+# Date: November 11th, 2026
 # Purpose: Create Data Frames.
 # Usage: ./lab7f.py
 
